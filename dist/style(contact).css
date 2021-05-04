@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#contact-container{
+    width: 40%;
+    margin: auto;
+    border: 3px solid wheat;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}

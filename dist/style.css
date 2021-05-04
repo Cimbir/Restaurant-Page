@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/462778.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1000px;
+}
+
+#content{
+    margin: auto;
+    margin-top: 100px;
+    width: 85%;
+    height: 800px;
+}
+
+#tab-shifter{
+    width: 100%;
+    height: 100%;
+}
+
+#tab-container{
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+#info-display{
+    width: 100%;
+    height: 100% - 75px;
+    background-color: white;
+    border: 5px solid wheat;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.tab{
+    width: 15%;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+    border: 5px solid wheat;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tab:hover{
+    background-color: darkgoldenrod;
+}
+
+.active-tab{
+    background-color: darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
